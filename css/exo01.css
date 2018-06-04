@@ -1,0 +1,28 @@
+/* style pour exo 01 */
+
+body {
+    background: lightblue;
+    color: white;
+    font-family: 'trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'lucida Sans', Arial, sans-serif;
+    margin : 0 auto;
+    font-size: 0.8em;
+}
+
+#conteneur {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    background: lightcoral;
+}
+
+h1 {
+    width: 80%;
+    background: #333;
+    height: 50px;
+}
+
+p {
+    width: 75%;
+    height: auto;
+    background: pink;
+}
