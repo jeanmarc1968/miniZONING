@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>UI TILES 02</title>
+        <style>
+body {
+    background: yellow;
+    margin: 0 auto;
+}
+#wrapper {
+    background: whitesmoke;
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+}
+header {
+    background: olive;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+} 
+.grande {
+    background: green;
+    width: 1070px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 1em; 
+}
+#col1 {
+background: blue;
+width: 500px;
+height: 400px;
+margin-left: 60px;
+margin-top: 20px;
+border-radius: 1em;
+}
+#col2 {
+background:  blueviolet;
+width: 500px; 
+height: 400px;
+margin-right: 60px;
+margin-top: 20px;
+border-radius: 1em;
+}
+.agauche {
+    float: left;
+}
+.adroite {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+        
+        </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>1+2 GRID</h1>
+        </header>
+      
+    <section>
+        <div class="grande">colonne</div>
+    </section>
+    <div class="clear"></div>
+    <section>
+        <div id="col1" class="agauche">col 1</div>
+        <div id="col2" class="adroite">col 2</div>
+    </section>
+</div>
+</body>
+</html>
